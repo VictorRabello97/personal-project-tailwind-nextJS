@@ -2,26 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+.background{
+    background: #2f2841;
+    box-shadow: 0px 10px 40px -8px #000000;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.inputBackGround{
+    
+    background: #514869
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.textColor{
+    color: #77ffc0;
+    font-size: 2rem;
 }
+
+.textColorSmall{
+    color: #77ffc0;
+}
+
+
+
+.textcolor{
+   color: #514869;
+}
+
+
+
+.buttonStyle{
+    box-shadow: 0px 10px 40px -12px #95f0c6;
+}
+
+.inputs{
+    text-decoration: none;
+    outline: none;
+}
+
+.buttonBackground{
+    background: #77ffc0; ;
+}
+
